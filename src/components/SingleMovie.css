@@ -1,0 +1,4 @@
+.movie-box:hover img {
+  filter: brightness(20%);
+  filter: filter(1.75);
+}
