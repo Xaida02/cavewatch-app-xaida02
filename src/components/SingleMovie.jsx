@@ -16,7 +16,7 @@ const SingleMovie = ({ movie }) => {
   const { userSavedMovies } = useGlobalContext();
 
   useEffect(() => {
-    const isSaved = userSavedMovies.some(
+    const isSaved = userSavedMovies?.some(
       (savedMovie) => savedMovie.id === movie.id
     );
     setFav(isSaved);
