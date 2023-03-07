@@ -81,7 +81,7 @@ const Footer = () => {
               Forums
             </li>
             <li className="py-2 cursor-pointer text-sm  duration-100 hover:text-gray-300">
-              Nami
+              Yasuo
             </li>
           </ul>
         </div>
